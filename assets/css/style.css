@@ -35,18 +35,12 @@
     
     font-family: "Noor regular";
 }
-/* home changes */
-#home{
-    background: #17181b;
-    
-}
-/* button changes*/
 .button{
-    direction: ltr;
     background: linear-gradient(to right,#f8c407,#fff06a);
-    
 }
-
+.button:hover{
+    opacity: .8;
+}
 body { -webkit-font-smoothing: antialiased; --webkit-animation: fix 1s 1; overflow-x: hidden; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 20px; }
 a, a:hover { text-decoration: none; }
@@ -789,15 +783,3 @@ opacity:0
 /*===== Common transitions =====*/
 .dtr-btn, button, input[type="submit"], input[type="reset"], .dtr-form-btn, .dtr-logo, a:link, select, textarea, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"], #dtr-header-global, .dtr-social a, .dtr-icon-list li, .dtr-sticky-tabs-nav, .dtr-servicebox, .dtr-servicebox-number { -webkit-transition: all .3s ease; transition: all .3s ease }
 
-.home_title{
-   font-size: 3rem;
-    margin-left: 4rem;
-}
-.t1{
-    margin-left: 10rem;
-}
-.watch{
-    color: #f8c407;
-   margin-left: 10rem;
-   margin-right: 2rem;
-}
