@@ -783,3 +783,8 @@ opacity:0
 /*===== Common transitions =====*/
 .dtr-btn, button, input[type="submit"], input[type="reset"], .dtr-form-btn, .dtr-logo, a:link, select, textarea, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"], #dtr-header-global, .dtr-social a, .dtr-icon-list li, .dtr-sticky-tabs-nav, .dtr-servicebox, .dtr-servicebox-number { -webkit-transition: all .3s ease; transition: all .3s ease }
 
+@media only screen and (max-width:1000px){
+    .button{
+        margin-left: 8rem;
+    }
+}

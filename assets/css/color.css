@@ -70,9 +70,9 @@ a:hover { color: #1732a4; }
 .btn-flat-grey:hover { background-color: #f3f5fa; color: #191c2f; }
 /*-- blue --*/
 .btn-blue { background-color: #1732a4; border-color: #1732a4; color: #fff; }
-.btn-blue:hover { background-color: #1732a4; border-color: #1732a4; color: #fff; }
-.btn-flat-blue { border-color: #1732a4; color: #1732a4; }
-.btn-flat-blue:hover { background-color: #1732a4; color: #fff; }
+.btn-blue:hover { background-color: #f8c407; border-color: #1732a4; color: #fff; }
+.btn-flat-blue { border-color: #f8c407; color: #1732a4; }
+.btn-flat-blue:hover { background-color: #f8c407; color: #fff; }
 /*-- red --*/
 .btn-red { background-color: #ff5858; border-color: #ff5858; color: #fff; }
 .btn-red:hover { background-color: #191c2f; border-color: #191c2f; color: #fff; }
@@ -158,17 +158,17 @@ font-size: 95%;
 .dtr-menu-light .nav-link { color: rgba(255, 255, 255, .5); }
 .dtr-menu-light .active { color: #fff; }
 .dtr-menu-light .nav-link:hover { color: #fff; }
-.dtr-menu-light .active:hover { color: #1732a4; }
+.dtr-menu-light .active:hover { color: #f8c407; }
 .dtr-menu-light .sf-menu:first-child > li a::before, .dtr-menu-light .sf-menu:first-child > li a:hover::before, .dtr-menu-light .sf-menu:first-child > li a.active:before { background-color: #ff5858; }
 /* menu for light background */
-.dtr-menu-dark .nav-link { color: #191c2f; }
-.dtr-menu-dark .active { color: #1732a4; }
-.dtr-menu-dark .nav-link:hover { color: #1732a4; }
-.dtr-menu-dark .active:hover { color: #1732a4; }
+.dtr-menu-dark .nav-link { color: #17181b; }
+.dtr-menu-dark .active { color: #f8c407; }
+.dtr-menu-dark .nav-link:hover { color: #f8c407; }
+.dtr-menu-dark .active:hover { color: #f8c407; }
 .dtr-menu-dark .sf-menu:first-child > li a::before, .dtr-menu-dark .sf-menu:first-child > li a:hover::before, .dtr-menu-dark .sf-menu:first-child > li a.active:before { background-color: #ff5858; }
 /* dropdown link color */
 .sf-menu .sub-menu li a { color: rgba(25,28,47,0.65); }
-.sf-menu .sub-menu li a:hover, .sf-menu .sub-menu li .active { background: rgba(23,50,164,0.05); color: #1732a4; }
+.sf-menu .sub-menu li a:hover, .sf-menu .sub-menu li .active { background: rgba(23,50,164,0.05); color: #f8c407 }
 .sf-menu .sub-menu { background-color: #fff; }
 .sf-menu .sub-menu a { border-bottom-color: #eee; }
 /*===== Responsive header =====*/
