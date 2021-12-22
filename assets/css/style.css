@@ -48,6 +48,9 @@
 .title{
     font-weight: bolder;
 }
+.dtr-icon-list li i{
+    margin-left: 1rem;
+}
 body { -webkit-font-smoothing: antialiased; --webkit-animation: fix 1s 1; overflow-x: hidden; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 20px; }
 a, a:hover { text-decoration: none; }
