@@ -104,7 +104,7 @@
 <section id="home" class="dtr-section dtr-section-with-bg dtr-hero-section-top-padding" style="background-image: url(assets/images/white-shape-bg.png); background-color: #17181b;"> 
             
     <!-- wrapping div for background bottom curve stripes image - easy to change color - no need to edit image - refer help doc -->
-    <div class="dtr-bottom-shape-img" style="background-image: url(assets/images/hero-bottom1\ \(1\).svg); " >
+    <div class="dtr-bottom-shape-img" style="background-image: url(assets/images/hero-bottom.svg); " >
         <div class="container"> 
             
             <!--===== row 1 starts =====-->
@@ -342,17 +342,19 @@
         
         <!-- about section starts
 ================================================== -->
-        <section id="about" class="dtr-section dtr-pt-100 dtr-pb-150 dtr-section-with-bg" style="background-image: url(assets/images/section-bg-img1.jpg);"> <!-- blue overlay -->
-            <div class="dtr-overlay dtr-overlay-blue"></div>
+        <section id="about" class="dtr-section dtr-pt-100 dtr-pb-150 dtr-section-with-bg" style="background-image: url(assets/images/section-bg-img1.jpg);"> 
+            <div class="dtr-overlay"></div>
             <div class="container dtr-overlay-content"> 
                 
                 <!-- row starts -->
                 <div class="row"> 
-                    
+                      <!-- column 2 starts -->
+                      <div class="col-12 col-md-6 col-lg-6 offset-lg-1 small-device-space"> <img src="assets/images/about-img.png" alt="image"> </div>
+                      <!-- column 2 ends --> 
                     <!-- column 1 starts -->
                     <div class="col-12 col-md-6 col-lg-5">
-                        <h2 class="color-white">We aim to help busy peoples</h2>
-                        <p class="color-white-muted">Lorem text is also used to demonstrate the appearance of different typefaces and layouts.</p>
+                        <h2 class="color-white" style="text-align: right;">تميز بشكل إبداعي عن منافسيك معنا</h2>
+                        <p class="color-white-muted" style="text-align: right;">من الشعارات إلى الرسوم التوضيحية إللا الفيديوهات التي قد تحتاجها لعملك في أي وقت و بناءا على طلبك.</p>
                         
                         <!--== accordion starts ==-->
                         <div class="dtr-mt-30 color-white">
@@ -362,11 +364,12 @@
                                 <div class="card">
                                     <div class="card-header" id="accord-index1-heading1">
                                         <h4>
-                                            <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse1" aria-expanded="false" aria-controls="accord-index1-collapse1">How to get started</button>
+                                            <button class=" accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse1" aria-expanded="false" aria-controls="accord-index1-collapse1">ما هي يلا خطوة</button>
                                         </h4>
                                     </div>
                                     <div id="accord-index1-collapse1" class="collapse" aria-labelledby="accord-index1-heading1" data-parent="#accord-index1">
-                                        <div class="card-body">Lorem text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</div>
+                                        <div class="card-body" style="text-align: right;">يلا خطوة هي مجموعة خدمات قائمة على الاشتراك تقدم أعمال تصاميم جرافيك غير محدودة بسعر شهري ثابت. ما عليك سوى طلب تصميم ، والحصول على العمل من خلال مصممين محترفين الذين سيتعاملون معه في غضون 24 ساعة
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accordion tab 1 ends --> 
@@ -375,11 +378,13 @@
                                 <div class="card">
                                     <div class="card-header" id="accord-index1-heading2">
                                         <h4>
-                                            <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse2" aria-expanded="false" aria-controls="accord-index1-collapse2">What are the services you provide?</button>
+                                            <button class=" accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse2" aria-expanded="false" aria-controls="accord-index1-collapse2" >كيف يعمل موقعنا</button>
                                         </h4>
                                     </div>
                                     <div id="accord-index1-collapse2" class="collapse" aria-labelledby="accord-index1-heading2" data-parent="#accord-index1">
-                                        <div class="card-body">Lorem text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</div>
+                                        <div class="card-body" style="text-align: right;">العمل مع يلا خطوة بسيط وسهل جداً : 1) تقوم بإرسال طلب تصميم. 2) نقوم بمراجعة طلبك مع المصمم ، وتحصل على النتائج في مدة أقصاها 24 ساعة. 3) إذا أعجبك ذلك ، وافقت عليه ، أو إذا لزم الأمر ، يمكنك طلب التعديلات. 4) تحصل على ملفات التصميم والمصادر الأصلية ، وننتقل إلى الطلب التالي.
+
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accordion tab 2 ends --> 
@@ -388,11 +393,12 @@
                                 <div class="card">
                                     <div class="card-header" id="accord-index1-heading3">
                                         <h4>
-                                            <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse3" aria-expanded="false" aria-controls="accord-index1-collapse3">Do you provide support</button>
+                                            <button class=" accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse3" aria-expanded="false" aria-controls="accord-index1-collapse3">إضافة مميزة احترافية جديدة يمكنك اضافتها</button>
                                         </h4>
                                     </div>
                                     <div id="accord-index1-collapse3" class="collapse" aria-labelledby="accord-index1-heading3" data-parent="#accord-index1">
-                                        <div class="card-body">Lorem text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</div>
+                                        <div class="card-body" style="text-align: right;">العمل مع يلا خطوة بسيط وسهل جداً : 1) تقوم بإرسال طلب تصميم. 2) نقوم بمراجعة طلبك مع المصمم ، وتحصل على النتائج في مدة أقصاها 24 ساعة. 3) إذا أعجبك ذلك ، وافقت عليه ، أو إذا لزم الأمر ، يمكنك طلب التعديلات. 4) تحصل على ملفات التصميم والمصادر الأصلية ، وننتقل إلى الطلب التالي.
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accordion tab 3 ends --> 
@@ -401,23 +407,25 @@
                         </div>
                         <!--== accordion ends ==-->
                         
-                        <p class="color-white-muted dtr-mt-40">"Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus."</p>
+                        <p class="color-white-muted" style="text-align: right;">من الشعارات إلى الرسوم التوضيحية إللا الفيديوهات التي قد تحتاجها لعملك في أي وقت و بناءا على طلبك.</p>
                         
                         <!-- author box starts -->
-                        <div class="dtr-author-box dtr-mt-20"> <img src="assets/images/user-6.jpg" width="60" height="60" alt="image" class="dtr-author-img border-red">
-                            <div class="dtr-author-content">
-                                <h6 class="color-white">Melissa Norwood</h6>
-                                <p class="color-white-muted">Co-founder</p>
-                            </div>
-                            <img src="assets/images/signature.png" alt="image" class="ml-auto"> </div>
-                        <!-- author box ends --> 
                         
+                        
+                       
+                            <div class="dtr-author-box dtr-mt-20" style="float: right;">
+                                <div class="dtr-author-content">
+                                    <h6 class="color-white">حسن اجظاهيم</h6>
+                                    <p class="color-white-muted" style="text-align: right;">المؤسس</p>
+                                </div>
+                                <img src="assets/images/user-6.jpg" width="60" height="60" alt="image" class="dtr-author-img border-red">
+                                
+                        <!-- author box ends --> 
+                    </div>
                     </div>
                     <!-- column 1 ends --> 
                     
-                    <!-- column 2 starts -->
-                    <div class="col-12 col-md-6 col-lg-6 offset-lg-1 small-device-space"> <img src="assets/images/about-img.png" alt="image"> </div>
-                    <!-- column 2 ends --> 
+                  
                     
                 </div>
                 <!-- row ends --> 
@@ -429,63 +437,65 @@
         
         <!-- counter section starts
 ================================================== -->
+<!--
         <section class="dtr-section z-index">
             <div class="container">
                 <div class="dtr-px-30 dtr-mt-minus50 dtr-rounded text-center bg-red color-white"> 
                     
-                    <!--== row starts ==-->
+                    
                     <div class="row"> 
                         
-                        <!-- column 1 starts -->
+                         column 1 starts 
                         <div class="col-12 col-md-4 col-lg-2 offset-lg-1 dtr-py-40"> <span class="dtr-count-number">2012</span>
                             <p class="dtr-count-text">The year we started our services</p>
                         </div>
-                        <!-- column 1 ends --> 
+                         column 1 ends 
                         
-                        <!-- column 2 starts -->
+                         column 2 starts 
                         <div class="col-12 col-md-4 col-lg-2 dtr-py-40"> 
                             
-                            <!-- counter starts -->
+                             counter starts 
                             <div class="dtr-counter"> <span class="dtr-count-number counting-number" data-from="1" data-to="6" data-speed="2800">6</span>
                                 <p class="dtr-count-text">Pro awards won for lorem amet</p>
                             </div>
-                            <!-- counter ends --> 
+                             counter ends  
                             
                         </div>
-                        <!-- column 2 ends --> 
+                         column 2 ends 
                         
-                        <!-- column 3 starts -->
+                         column 3 starts 
                         <div class="col-12 col-md-4 col-lg-2 dtr-py-40"> <img src="assets/images/reviews-symbol.png" alt="image" class="dtr-mb-20">
                             <p class="dtr-stars dtr-stars-5 color-yellow"></p>
                         </div>
-                        <!-- column 3 ends --> 
+                         column 3 ends 
                         
-                        <!-- column 4 starts -->
+                         column 4 starts 
                         <div class="col-12 col-md-4 col-lg-2 dtr-py-40"> 
                             
-                            <!-- counter starts -->
+                             counter start
                             <div class="dtr-counter"> <span class="dtr-count-number counting-number" data-from="1" data-to="20" data-speed="1600">20</span>
                                 <p class="dtr-count-text">Years of professional experience</p>
                             </div>
-                            <!-- counter ends --> 
+                             counter ends 
                             
                         </div>
-                        <!-- column 4 ends --> 
+                         column 4 ends 
                         
-                        <!-- column 5 starts -->
+                         column 5 starts 
                         <div class="col-12 col-md-4 col-lg-2 dtr-py-40"> <span class="dtr-count-number">5K</span>
                             <p class="dtr-count-text">Business customers serviced in 2020</p>
                         </div>
-                        <!-- column 5 ends --> 
+                         column 5 ends 
                         
                     </div>
-                    <!--== row ends ==--> 
+                     row ends 
                     
                 </div>
             </div>
         </section>
         <!-- counter section ends
 ================================================== --> 
+
         
         <!-- pricing section starts
 ================================================== -->
