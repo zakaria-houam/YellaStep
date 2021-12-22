@@ -58,10 +58,17 @@
     text-align: right;
     float: right;
     margin-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 .accordion-btn-link:focus{
     outline: none;
+}
+.accordion-btn-link i{
+    margin-right: 1rem;
+}
+.dtr-sticky-tabs-content ul li:hover{
+    background: #fff06a;
 }
 body { -webkit-font-smoothing: antialiased; --webkit-animation: fix 1s 1; overflow-x: hidden; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 20px; }

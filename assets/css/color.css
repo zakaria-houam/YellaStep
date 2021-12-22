@@ -231,7 +231,7 @@ font-size: 95%;
 .video-button-dark .dtr-border-animation { border-color: rgba(17, 32, 77, 0.4); }
 /*===== social =====*/
 .dtr-social-circle .dtr-social-list a, .dtr-social-square .dtr-social-list a { background-color: #1732a4; color: #fff !important; }
-.dtr-social-circle .dtr-social-list a:hover, .dtr-social-square .dtr-social-list a:hover { background-color: #1732a4; color: #fff !important; }
+.dtr-social-circle .dtr-social-list a:hover, .dtr-social-square .dtr-social-list a:hover { background-color: #fff7b6; color: #fff !important; }
 /*----------------------------------------*/
 /*----- Misc -----*/
 /*----------------------------------------*/
