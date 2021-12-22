@@ -37,9 +37,13 @@
 }
 .button{
     background: linear-gradient(to right,#f8c407,#fff06a);
+    font-weight: bolder;
 }
 .button:hover{
     opacity: .8;
+}
+.dtr-icon-list li{
+    text-align: right;
 }
 body { -webkit-font-smoothing: antialiased; --webkit-animation: fix 1s 1; overflow-x: hidden; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 20px; }

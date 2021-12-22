@@ -146,7 +146,7 @@ font-size: 95%;
 /*----- Footer -----*/
 /*----------------------------------------*/
 .dtr-footer-main { background-color: #191c2f; } 
-.dtr-copyright { background-color: #ff5858; }
+.dtr-copyright { background-color: #191c2f; border-top: 1px solid #f8c407;}
 .dtr-footer-main h1, .dtr-footer-main h2, .dtr-footer-main h3, .dtr-footer-main h4, .dtr-footer-main h5, .dtr-footer-main h6 { color: #fff; } 
 .dtr-footer-main, .dtr-footer-main a, .dtr-copyright, .dtr-copyright a { color: #fff; }
 .dtr-copyright a:hover, .dtr-footer-main a:hover { color: rgba(255,255,255, .50); }
@@ -214,10 +214,10 @@ font-size: 95%;
 .color-white .dtr-accordion .card-header:first-child, .color-white .dtr-accordion.accordion > .card:not(:first-of-type) .card-header:first-child { border-color: rgba(255, 255, 255, .10); }
 .color-white .dtr-accordion .card-body { color: rgba(255,255,255,.60) !important; }
 /*== Sticky Tabs ==*/
-.dtr-sticky-tabs { background-color: #1732a4; }
+.dtr-sticky-tabs { background-color: #191c2f; }
 .dtr-sticky-tabs .nav-item:after { background-color: rgba(255, 255, 255, .10); }
 .dtr-sticky-tabs-nav .nav-link { color: #fff; }
-.dtr-sticky-tabs-nav .nav-link:hover, .dtr-sticky-tabs-nav .nav-link.active { color: #ff5858; }
+.dtr-sticky-tabs-nav .nav-link:hover, .dtr-sticky-tabs-nav .nav-link.active { color: #f8c407; }
 /*===== footer contact =====*/
 .dtr-contact-widget li i::after { background-color: rgba(255, 255, 255, .25); }
 /*===== Video Play =====*/
