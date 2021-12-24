@@ -189,11 +189,11 @@ font-size: 95%;
 /*===== feature =====*/
 .dtr-feature-circle-icon .dtr-feature-img, .dtr-feature-square-icon .dtr-feature-img, .dtr-feature-circle-lg-icon .dtr-feature-img, .dtr-feature-square-lg-icon .dtr-feature-img { background-color: #fff; border-color: rgba(23,50,164,0.10); }
 /*===== testimonial =====*/
-.dtr-testimonial-icon::before { background-color: #ff5858; color: #fff; }
-.dtr-testimonial-user img { border-color: #ff5858; }
+.dtr-testimonial-icon::before { background-color: #f8c407; color: #fff; }
+.dtr-testimonial-user img { border-color: #f8c407; }
 /*===== servicebox =====*/
-.dtr-servicebox { border-color: rgba(23,50,164,0.10); }
-.dtr-servicebox:hover { background-color: rgba(23,50,164,0.05); }
+.dtr-servicebox { border-color: #e7e7e7; }
+.dtr-servicebox:hover { background-color: white; }
 .dtr-servicebox-number { color: rgba(23,50,164,0.10); }
 .dtr-servicebox:hover .dtr-servicebox-number { color: rgba(23,50,164,0.10); }
 /*===== blog items =====*/
