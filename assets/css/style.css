@@ -91,6 +91,13 @@
 .price2{
     background: linear-gradient(to left,#f8c407,#fff06a);
 }
+.price2 p,.price2 a{
+    color: black;
+}
+.price2 .pricing-details-title:hover{
+    color: black;
+}
+
 body { -webkit-font-smoothing: antialiased; --webkit-animation: fix 1s 1; overflow-x: hidden; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 20px; }
 a, a:hover { text-decoration: none; }
@@ -835,6 +842,7 @@ opacity:0
 .button:hover{
     color: white;
 }
+
 @media only screen and (max-width:1000px){
     .button{
         margin-left: 8rem;

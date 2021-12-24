@@ -22,7 +22,7 @@ a:hover { color: #1732a4; }
 /*----- Overlays -----*/
 /*----------------------------------------*/
 .dtr-overlay { background-color: rgba(0, 0, 0, .5); }
-.dtr-overlay-blue { background-color: rgba(23, 50, 164, .9); }
+.dtr-overlay-blue { background-color: rgba(23, 24, 27, 0.8); }
 .dtr-overlay-red { background-color: rgba(255, 88, 88, .9); }
 /*----------------------------------------*/
 /*----- Text -----*/
@@ -62,7 +62,7 @@ a:hover { color: #1732a4; }
 .btn-white { background-color: #fff; border-color: rgba(23,50,164,0.10); color: #191c2f; }
 .btn-white:hover { background-color: #fff; border-color: rgba(23,50,164,0.10); color: #191c2f; }
 .btn-flat-white { border-color: #fff; color: #fff; }
-.btn-flat-white:hover { border-color: #ff5858; background-color: #ff5858; color: #ffffff; }
+.btn-flat-white:hover { border-color: #f8c407; background-color: #f8c407; color: #ffffff; }
 /*-- grey --*/
 .btn-grey { background-color: #f3f5fa; border-color: #f3f5fa; color: #191c2f; }
 .btn-grey:hover { background-color: #f3f5fa; border-color: #f3f5fa; color: #191c2f; }
@@ -78,6 +78,7 @@ a:hover { color: #1732a4; }
 .btn-red:hover { background-color: #191c2f; border-color: #191c2f; color: #fff; }
 .btn-flat-red { border-color: #ff5858; color: #ff5858; }
 .btn-flat-red:hover { background-color: #ff5858; color: #fff; }
+.btn-flat-black:hover { background-color: #000000; color: #fff; }
 /*----------------------------------------*/
 /*----- Forms -----*/
 /*----------------------------------------*/
@@ -248,3 +249,8 @@ font-size: 95%;
 .accent-color { color: #1732a4 !important; }
 /*===== accent link hover =====*/
 .accent-color-hover:hover { color: #1732a4 !important; }
+
+.btn-flat-black:hover{
+    background: black;
+    color: white;
+}
