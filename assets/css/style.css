@@ -70,6 +70,27 @@
 .dtr-sticky-tabs-content ul li:hover{
     background: #fff06a;
 }
+.dtr-pricing-details ul li{
+    text-align: right;
+    list-style: none;
+}
+.dtr-pricing-details p{
+    text-align: right;
+    
+}
+.dtr-pricing-details i{
+    margin-right: 1rem;
+}
+.dtr-pricing-details ul li{
+    direction: rtl;
+    
+}
+.dtr-pricing{
+    background-color: #000000;
+}
+.price2{
+    background: linear-gradient(to left,#f8c407,#fff06a);
+}
 body { -webkit-font-smoothing: antialiased; --webkit-animation: fix 1s 1; overflow-x: hidden; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 20px; }
 a, a:hover { text-decoration: none; }
@@ -608,9 +629,9 @@ form label.error { font-size: 0.665em; letter-spacing: 0.2px; }
 .dtr-list-pricing li { display: block; padding-bottom: 5px; margin-bottom: 5px; text-align: left; }
 .dtr-list-pricing li::before { font-family: 'icomoon'; content: "\e9b6"; font-size: 6px; vertical-align: middle; margin-right: 10px; }
 /* popular label */
-.dtr-pricing-label { width: 30px; min-height: 90px; position: absolute; right: 10px; top: -10px; -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); z-index: 1; }
+.dtr-pricing-label { width: 30px; min-height: 90px; position: absolute; left: 10px; top: -10px; -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); z-index: 1; }
 .dtr-pricing-label p { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); padding: 0; font-size: 0.665em; font-weight: 700; line-height: 14px; text-transform: uppercase; margin-top: 20px; margin-right: 5px; letter-spacing: 0.8px; }
-.dtr-pricing-label-hook::before { display: block; content: ''; width: 0; height: 0; border-style: solid; border-width: 0 0 10px 10px; border-color: transparent transparent #191c2f transparent; position: absolute; right: 40px; top: -10px; }
+.dtr-pricing-label-hook::before { display: block; content: ''; width: 0; height: 0; border-style: solid; border-width: 0 0 10px 10px; border-color: transparent transparent #191c2f transparent; position: absolute; left: 32px; top: -10px; }
 /*===== Counter =====*/
 .dtr-count-number { font-size: 47px; line-height: 52px; font-weight: bold; }
 .dtr-count-text { font-size: 13px; line-height: 20px; }
