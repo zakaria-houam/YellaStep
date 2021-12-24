@@ -22,7 +22,7 @@ a:hover { color: #1732a4; }
 /*----- Overlays -----*/
 /*----------------------------------------*/
 .dtr-overlay { background-color: rgba(0, 0, 0, .5); }
-.dtr-overlay-blue { background-color: rgba(23, 24, 27, 0.8); }
+.dtr-overlay-blue { background-color: rgba(25, 25, 26, .9); }
 .dtr-overlay-red { background-color: rgba(255, 88, 88, .9); }
 /*----------------------------------------*/
 /*----- Text -----*/
