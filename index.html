@@ -826,13 +826,17 @@
             <div class="container"> 
                 
                 <!-- cta box starts -->
-                <div class="dtr-cta-box bg-red color-white">
-                    <div class="dtr-cta-box-left" style="background-image: url(assets/images/cta_bg.jpg);"> </div>
+                <div class="dtr-cta-box " style=" background: linear-gradient(to right,#f8c407,#fff06a);color: black;">
                     <div class="dtr-cta-box-right">
-                        <div class="dtr-cta-box-icon border-white-muted color-red"></div>
-                        <p class="dtr-mb-20">Call us for Professional, flexible and cost-effective services on</p>
-                        <p class="dtr-cta-title">1800 265 258</p>
+                        <p class="dtr-mb-20" style="text-align: right; margin-right: 4rem; font-size: 2rem; font-weight: bolder; line-height: 1.5;">اختر الباقة المناسبة بالأعلى <br>
+                        و ارسل طلبك لنباشر العمل</p>
+                       
+                        
                     </div>
+                    <div class="dtr-cta-box-icon border-white-muted color-black"></div>
+
+                    <div class="dtr-cta-box-left" style="background-image: url(assets/images/cta_bg.jpg);"> </div>
+                    
                 </div>
                 <!-- cta box ends --> 
                 
@@ -929,7 +933,7 @@
         <!-- contact section starts
 ================================================== --> 
         <!-- top background curve image - easy to change color / no need to edit image - refer help doc -->
-        <section id="contact" class="dtr-section dtr-section-with-bg bg-blue color-white" style="background-image: url(assets/images/white-shape-bg.png);"> 
+        <section id="contact" class="dtr-section dtr-section-with-bg bg-dark color-white" style="background-image: url(assets/images/white-shape-bg.png);"> 
             
             <!-- wrapping div for top shape image - easy to change color / no need to edit image - refer help doc -->
             <div class="dtr-py-100 dtr-top-shape-img" style="background-image: url(assets/images/contact-section-top.svg);">
@@ -937,14 +941,36 @@
                     
                     <!--== row starts ==-->
                     <div class="row"> 
+                          <!-- column 2 starts -->
+                          <div class="col-12 col-md-4">
+                            <div class="dtr-pl-50"> <img src="assets/images/illustration.png" alt="image" class="small-device-space">
+                                <h4 class="dtr-mt-50 alrt">طرق للتواصل</h4>
+                                
+                                <!-- contact box starts -->
+                                <div class="dtr-contact-box"> 
+                                    <div class="dtr-contact-box-content color-white dtr-mr-10"> <span class="dtr-contact-box-title color-white-muted alrt">واتساب</span> +212691364342 </div>
+                                    <i class="icon-whatsapp"></i>
+                                </div>
+                                <!-- contact box ends --> 
+                                
+                                <!-- contact box starts -->
+                                <div class="dtr-contact-box dtr-mt-20" style="margin-left: 7rem;"> 
+                                    <div class="dtr-contact-box-content color-white dtr-mr-10"> <span class="dtr-contact-box-title color-white-muted alrt">انستجرام</span> @yellastep </div>
+                                    <i class="icon-instagram"></i>
+                                </div>
+                                <!-- contact box ends --> 
+                                
+                            </div>
+                        </div>
+                        <!-- column 2 ends --> 
                         
                         <!-- column 1 starts -->
                         <div class="col-12 col-md-8"> 
                             
                             <!-- heading starts -->
                             <div class="dtr-styled-heading">
-                                <h2>What is your business?</h2>
-                                <p class="color-white-muted">We will customize and design our business support services for your lorem ipsum dolor sit amet incidid labore magna business needs.</p>
+                                <h2 style="text-align: right;">أخبرنا أكثر عن مشروعك</h2>
+                                <p class="color-white-muted" style="text-align: right;">سنقوم بتخصيص وإنشاء خدمات لدعم احتياجات عملك</p>
                             </div>
                             <!-- heading ends --> 
                             
@@ -955,30 +981,31 @@
                                         
                                         <!-- form two columns start -->
                                         <div class="dtr-form-row dtr-form-row-2col clearfix">
-                                            <div class="dtr-form-column">
-                                                <p class="dtr-form-field"> <span class="dtr-form-subtext">Your Name</span>
-                                                    <input name="name"  type="text" placeholder="Johnathon Doelsen">
+                                            
+                                            <div class="dtr-form-column" style="direction: rtl;">
+                                                <p class="dtr-form-field"> <span class="dtr-form-subtext">أيمايلك الإلكترةني</span>
+                                                    <input name="email"  class="required email" type="text" placeholder="youremail@yellastep.com">
                                                 </p>
                                             </div>
-                                            <div class="dtr-form-column">
-                                                <p class="dtr-form-field"> <span class="dtr-form-subtext">Email Address</span>
-                                                    <input name="email"  class="required email" type="text" placeholder="john@example.com">
+                                            <div class="dtr-form-column" style="direction: rtl;">
+                                                <p class="dtr-form-field"> <span class="dtr-form-subtext">إسمك الكامل</span>
+                                                    <input name="name"  type="text" placeholder="اكتب اسمك هنا">
                                                 </p>
                                             </div>
                                         </div>
                                         <!-- form two columns ends -->
                                         
-                                        <p class="dtr-form-field"> <span class="dtr-form-subtext">I'm Looking for ...</span>
-                                            <input name="subject"  type="text" placeholder="Bookkeeping">
+                                        <p class="dtr-form-field" style="direction: rtl;"> <span class="dtr-form-subtext">أبحث عن </span>
+                                            <input name="subject"  type="text" placeholder="اكتب الخدمة المطلوبة">
                                         </p>
                                         <p class="antispam">Leave this empty: <br />
                                             <input name="url" />
                                         </p>
-                                        <p class="dtr-form-field"> <span class="dtr-form-subtext">Your Message</span>
-                                            <textarea rows="6" name="message" id="message" class="required"  placeholder="Please write in brief..."></textarea>
+                                        <p class="dtr-form-field" style="direction: rtl;"> <span class="dtr-form-subtext">رسالتك</span>
+                                            <textarea rows="6" name="message" id="message" class="required"  placeholder="يرجى الكتباة بشكل مختصر"></textarea>
                                         </p>
                                         <p class="text-center">
-                                            <button class="dtr-btn btn-red w-100" type="submit"> Get Started Now <i class="icon-arrow-right-circle dtr-ml-10"></i> </button>
+                                            <button class="dtr-btn button w-100" type="submit"> <i class="icon-arrow-left-circle dtr-mr-10"></i>ابدأ الآن </button>
                                         </p>
                                         <div id="result"></div>
                                     </fieldset>
@@ -989,27 +1016,7 @@
                         </div>
                         <!-- column 1 ends --> 
                         
-                        <!-- column 2 starts -->
-                        <div class="col-12 col-md-4">
-                            <div class="dtr-pl-50"> <img src="assets/images/illustration.png" alt="image" class="small-device-space">
-                                <h4 class="dtr-mt-50">Ways to get in touch</h4>
-                                
-                                <!-- contact box starts -->
-                                <div class="dtr-contact-box"> <i class="icon-whatsapp"></i>
-                                    <div class="dtr-contact-box-content color-white"> <span class="dtr-contact-box-title color-white-muted">Whatsapp</span> +99 1234 567 890 </div>
-                                </div>
-                                <!-- contact box ends --> 
-                                
-                                <!-- contact box starts -->
-                                <div class="dtr-contact-box dtr-mt-20"> <i class="icon-twitter"></i>
-                                    <div class="dtr-contact-box-content color-white"> <span class="dtr-contact-box-title color-white-muted">Twitter</span> @oficial_work </div>
-                                </div>
-                                <!-- contact box ends --> 
-                                
-                            </div>
-                        </div>
-                        <!-- column 2 ends --> 
-                        
+                      
                     </div>
                     <!--== row ends ==--> 
                     
