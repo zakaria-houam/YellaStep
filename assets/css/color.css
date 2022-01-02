@@ -202,7 +202,7 @@ font-size: 95%;
 .dtr-blog-meta li a:hover { color: #1732a4; }
 .dtr-blog-meta li::before { color: #1732a4; }
 .dtr-blog-meta { border-color: #e7eaf6; }
-.dtr-blog-date { background-color: #ff5858; color: #fff; }
+.dtr-blog-date { background-color: #f8c407; color: #17181b; }
 /*===== cta box =====*/
 .dtr-cta-box-icon { background-color: #fff; border-top-color: #fff; }
 /*===== Accordion =====*/
