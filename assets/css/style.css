@@ -609,8 +609,8 @@ form label.error { font-size: 0.665em; letter-spacing: 0.2px; }
 .dtr-stars-1:after { font-family: 'icomoon'; content: "\ec0e\ec0e\ec0e\ec0e"; }
 /*===== Contact widget =====*/
 .dtr-contact-widget li { position: relative; display: flex; background: none; list-style-type: none; border: 0; padding: 0; margin: 0 0 20px 15px; }
-.dtr-contact-widget li i { position: relative; margin-top: 5px; margin-right: 10px; font-size: 24px; z-index: 9; }
-.dtr-contact-widget li i::after { content: ''; display: block; width: 30px; height: 30px; border-radius: 50%; position: absolute; left: -15px; top: -3px; z-index: 1; z-index: -1; }
+.dtr-contact-widget li i { position: relative; margin-top: 5px; margin-left: 10px; font-size: 24px; z-index: 9; }
+.dtr-contact-widget li i::after { content: ''; display: block; width: 30px; height: 30px; border-radius: 50%; position: absolute; right: -15px; top: -3px; z-index: 1; z-index: -1; }
 /*===== Sticky Tabs =====*/
 .dtr-sticky-tabs-nav { top: 98px; /* adjust - top - to stick tab just below header */ }
 .dtr-sticky-tabs-wrapper { padding-bottom: 100px; }
@@ -849,9 +849,20 @@ opacity:0
 /*===== Common transitions =====*/
 .dtr-btn, button, input[type="submit"], input[type="reset"], .dtr-form-btn, .dtr-logo, a:link, select, textarea, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"], #dtr-header-global, .dtr-social a, .dtr-icon-list li, .dtr-sticky-tabs-nav, .dtr-servicebox, .dtr-servicebox-number { -webkit-transition: all .3s ease; transition: all .3s ease }
 
-
+.dtr-footer-main .no-margin{
+    margin-left: 4rem;
+}
+.alrt2{
+    text-align: center;
+}
 @media only screen and (max-width:1000px){
     .button{
         margin-left: 8rem;
+    }
+    .dtr-footer-main .no-margin{
+        margin-left: 0;
+    }
+    .alrt2{
+        text-align: right;
     }
 }

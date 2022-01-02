@@ -243,8 +243,8 @@ font-size: 95%;
 .dtr-slick-slider .slick-prev, .dtr-slick-slider .slick-next { background-color: #191c2f; border-color: #17181b; }
 .dtr-slick-slider .slick-prev:hover, .dtr-slick-slider .slick-next:hover { background-color: #f8c407; border-color: #f8c407; }
 .dtr-slick-slider .slick-prev:hover:before, .dtr-slick-slider .slick-next:hover:before { color: #fff; }
-.dtr-slick-slider ul.slick-dots li button { background-color: #191c2f; opacity: .4; }
-.dtr-slick-slider ul.slick-dots li button:hover, .dtr-slick-slider ul.slick-dots li.slick-active button { background-color: #17181b; opacity: 1; }
+.dtr-slick-slider ul.slick-dots li button { background-color: white; opacity: .4; }
+.dtr-slick-slider ul.slick-dots li button:hover, .dtr-slick-slider ul.slick-dots li.slick-active button { background-color: white; opacity: 1; }
 /*===== accent bg hover =====*/
 .accent-color { color: #1732a4 !important; }
 /*===== accent link hover =====*/
