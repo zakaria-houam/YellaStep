@@ -855,6 +855,7 @@ opacity:0
 .alrt2{
     text-align: center;
 }
+
 @media only screen and (max-width:1000px){
     .button{
         margin-left: 8rem;
